@@ -42,8 +42,10 @@ img {
 .item {
 	font-size: 12px;
     display: flex;
-}
+    align-items: center;
+    }
 
-.itemcurso {
-    
+.item1 {
+    display: flex;
+    align-items: center;
 }
