@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	}
+
+body {
+	background-color: white;
+    max-width: 1300px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    color: orange;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 30px 10px 30px;
+}
+
+img {
+    vertical-align:middle;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.containerItems {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+
+.item {
+	font-size: 12px;
+    display: flex;
+}
+
+.itemcurso {
+    
+}
